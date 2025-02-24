@@ -4,9 +4,9 @@
 
 This project is a full-stack task management application built using **Laravel**, **Inertia.js**, and **React.js**. It allows users to register, log in, and manage tasks efficiently.
 
-- **Backend**: Built with Laravel, handling authentication, API services, and database interactions using **PostgreSQL**. Secure API access is implemented with **JWT authentication**.
-- **Frontend**: Developed using React.js and Inertia.js to provide a seamless **single-page experience (SPA)**.
-- **Features**: Users can **view, add, complete, and delete tasks** through an interactive UI styled with **Tailwind CSS**.
+-   **Backend**: Built with Laravel, handling authentication, API services, and database interactions using **PostgreSQL**. Secure API access is implemented with **JWT authentication**.
+-   **Frontend**: Developed using React.js and Inertia.js to provide a seamless **single-page experience (SPA)**.
+-   **Features**: Users can **view, add, complete, and delete tasks** through an interactive UI styled with **Tailwind CSS**.
 
 ## Installation
 
@@ -22,6 +22,7 @@ composer install / composer update
 npm install
 ```
 
+```sh
 project-name/
 ├── app/
 ├── bootstrap/
@@ -38,3 +39,4 @@ project-name/
 ├── package.json
 ├── composer.json
 ├── vite.config.js
+```
